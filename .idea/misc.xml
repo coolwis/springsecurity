@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/web/jwt-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/sp-board-web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/auth-server-1/pom.xml" />
+        <option value="$PROJECT_DIR$/web/security-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/web/google-client-4/pom.xml" />
+        <option value="$PROJECT_DIR$/web/resource-server-1/pom.xml" />
+        <option value="$PROJECT_DIR$/web/oauth2-client-test/pom.xml" />
+        <option value="$PROJECT_DIR$/web/jwt-refresh-token-test/pom.xml" />
+        <option value="$PROJECT_DIR$/web/user-authority-test-web/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-board/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/user-authority/pom.xml" />
+        <option value="$PROJECT_DIR$/sp-jwt-security/pom.xml" />
+        <option value="$PROJECT_DIR$/user-oauth2-support/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (2)" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

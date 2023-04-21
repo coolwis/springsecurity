@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/web/auth-server-1/auth-server-1.iml" filepath="$PROJECT_DIR$/web/auth-server-1/auth-server-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/google-client-4/google-client-4.iml" filepath="$PROJECT_DIR$/web/google-client-4/google-client-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/jwt-refresh-token-test/jwt-refresh-token-test.iml" filepath="$PROJECT_DIR$/web/jwt-refresh-token-test/jwt-refresh-token-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/jwt-user-web/jwt-user-web.iml" filepath="$PROJECT_DIR$/web/jwt-user-web/jwt-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/oauth2-client-test/oauth2-client-test.iml" filepath="$PROJECT_DIR$/web/oauth2-client-test/oauth2-client-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/resource-server-1/resource-server-1.iml" filepath="$PROJECT_DIR$/web/resource-server-1/resource-server-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/security-basic/security-basic.iml" filepath="$PROJECT_DIR$/web/security-basic/security-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-board/sp-board.iml" filepath="$PROJECT_DIR$/sp-board/sp-board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/sp-board-web/sp-board-web.iml" filepath="$PROJECT_DIR$/web/sp-board-web/sp-board-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-jwt-security/sp-jwt-security.iml" filepath="$PROJECT_DIR$/sp-jwt-security/sp-jwt-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-web-util/sp-web-util.iml" filepath="$PROJECT_DIR$/sp-web-util/sp-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security-junit5-test.iml" filepath="$PROJECT_DIR$/.idea/spring-security-junit5-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-authority/user-authority.iml" filepath="$PROJECT_DIR$/user-authority/user-authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/user-authority-test-web/user-authority-test-web.iml" filepath="$PROJECT_DIR$/web/user-authority-test-web/user-authority-test-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-oauth2-support/user-oauth2-support.iml" filepath="$PROJECT_DIR$/user-oauth2-support/user-oauth2-support.iml" />
+    </modules>
+  </component>
+</project>

@@ -61,6 +61,28 @@ public class JWTTokenTest {
         System.out.println("====>> unknown type for :"+key);
     }
 
+    @Test
+    void test1() throws InterruptedException {
+        Algorithm AL = Algorithm.HMAC256("hello");
+
+        String token = JWT.create()
+                .withSubject("jongwon")
+                .withClaim("exp", Instant.now().getEpochSecond() + 3)  // 3 second
+                .withArrayClaim("role", new String[]{"ROLE_ADMIN", "ROLE_USER"})
+                .sign(AL);
+//        System.out.println("JWTTokenTest.test1 :" + token);
+
+//        DecodedJWT decodedJWT = JWT.decode(token);
+        DecodedJWT decodedJWT= JWT.require(AL).build().verify(token); // 같은 키로 검증 가능
+        decodedJWT.getClaims().forEach(JWTTokenTest::printClaim);
+
+        // 만료 테스트
+        Thread.sleep(3);
+
+        assertThrows(TokenExpiredException.class , () -> {
+            JWT.require(AL).build().verify(token);
+        });
+    }
     @DisplayName("1. JWT 토큰이 잘 만들어 진다.")
     @Test
     @Disabled

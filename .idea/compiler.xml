@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jwt-user-web" />
+        <module name="user-authority" />
+        <module name="oauth2-client-test" />
+        <module name="sp-board-web" />
+        <module name="security-basic" />
+        <module name="resource-server-1" />
+        <module name="jwt-refresh-token-test" />
+        <module name="sp-jwt-security" />
+        <module name="auth-server-1" />
+        <module name="user-oauth2-support" />
+        <module name="sp-board" />
+        <module name="user-authority-test-web" />
+        <module name="sp-web-util" />
+        <module name="google-client-4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-server-1" target="11" />
+      <module name="google-client-4" target="11" />
+      <module name="jwt-refresh-token-test" target="11" />
+      <module name="jwt-user-web" target="11" />
+      <module name="oauth2-client-test" target="11" />
+      <module name="resource-server-1" target="11" />
+      <module name="security-basic" target="11" />
+      <module name="sp-board" target="11" />
+      <module name="sp-board-web" target="11" />
+      <module name="sp-jwt-security" target="11" />
+      <module name="sp-web-util" target="11" />
+      <module name="user-authority" target="11" />
+      <module name="user-authority-test-web" target="11" />
+      <module name="user-oauth2-support" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-server-1" options="-parameters" />
+      <module name="google-client-4" options="-parameters" />
+      <module name="jwt-refresh-token-test" options="-parameters" />
+      <module name="jwt-user-web" options="-parameters" />
+      <module name="oauth2-client-test" options="-parameters" />
+      <module name="resource-server-1" options="-parameters" />
+      <module name="security-basic" options="-parameters" />
+      <module name="sp-board-web" options="-parameters" />
+      <module name="user-authority-test-web" options="-parameters" />
+    </option>
+  </component>
+</project>

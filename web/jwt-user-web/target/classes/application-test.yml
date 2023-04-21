@@ -1,0 +1,14 @@
+server:
+  port: 8098
+
+spring:
+  data:
+    mongodb:
+      database: jwt-user-web
+      host: localhost
+      port: 0
+
+sp:
+  jwt:
+    secret: test-secret
+    token-life-time: 3

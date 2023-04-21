@@ -28,6 +28,7 @@ public class User implements UserDetails {
     private String name;
     private String picUrl;
 
+    // response에 포함 되지 않도록
     @JsonIgnore
     private String password;
 

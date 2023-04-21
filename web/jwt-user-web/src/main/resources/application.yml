@@ -6,8 +6,9 @@ spring:
     mongodb:
       database: jwt-user-web
       host: localhost
-      port: 27018
+      port: 27017
 
+# SpJwtProperties
 sp:
   jwt:
     secret: product-secret

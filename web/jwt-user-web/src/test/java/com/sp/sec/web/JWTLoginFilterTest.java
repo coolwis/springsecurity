@@ -68,6 +68,9 @@ public class JWTLoginFilterTest {
                 .password("user1123").build();
         HttpEntity<UserLogin> body = new HttpEntity<>(login);
         ResponseEntity<String> response = restTemplate.exchange(uri("/login"), HttpMethod.POST, body, String.class);
+
+        System.out.printf("response>>> "+ response);
+
         assertEquals(200, response.getStatusCodeValue());
     }
 

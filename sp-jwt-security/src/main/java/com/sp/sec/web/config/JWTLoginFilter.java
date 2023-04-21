@@ -25,7 +25,7 @@ public class JWTLoginFilter extends UsernamePasswordAuthenticationFilter {
         this.authenticationManager = authenticationManager;
         this.jwtUtil = jwtUtil;
         this.objectMapper = objectMapper;
-        setFilterProcessesUrl("/login");
+        setFilterProcessesUrl("/login"); // filter 걸리 url
     }
 
     @SneakyThrows

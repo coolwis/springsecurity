@@ -1,0 +1,8 @@
+
+spring:
+  data:
+    mongodb:
+      database: user-authority
+      host: localhost
+      port: 1111
+

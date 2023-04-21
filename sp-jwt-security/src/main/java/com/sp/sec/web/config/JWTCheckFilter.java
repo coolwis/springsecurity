@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+// jwt token 을 체크하기 위해서 Filter 추가
 public class JWTCheckFilter extends BasicAuthenticationFilter {
 
     private final UserService userService;
@@ -32,7 +33,7 @@ public class JWTCheckFilter extends BasicAuthenticationFilter {
     {
         String token = request.getHeader(JWTUtil.AUTH_HEADER);
         if(token == null || !token.startsWith(JWTUtil.BEARER)){
-            chain.doFilter(request, response);
+            chain.doFilter(request, response); // token이 없다면 그냥 진행, 로그인이 필요 없는 호출도 있으므로
             return;
         }
         VerifyResult result = jwtUtil.verify(token.substring(JWTUtil.BEARER.length()));
